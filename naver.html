@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAVER</title>
+    <link rel="shortcut icon" href="img/NAVER.jpg">
+    <link rel="stylesheet" href="/reset.css">
+    
+    <style>
+        .container {
+            width: 100%;
+            height: 100%;
+            margin: 0 auto;
+        }
+
+        header {
+            width: 100%;
+            height: 100px;
+            padding: 0 32px;
+            margin: 0 auto;
+            position: absolute;
+        }
+
+        .header-container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            padding-top: 20px;
+        }
+
+        img {
+            width: 40px;
+            height: 40px;
+            background-color: #FFF;
+            cursor: pointer;
+            border: none;
+        }
+
+        .header-hamburger {
+            padding: 20px;
+            gap: 16px;
+        }
+
+        .header-container > .header-hamburger {
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        .search-container {
+            display: flex;
+            justify-content: center;
+            background-color: transparent;
+        }
+
+        input {
+            display: block;
+            margin: 0 auto;
+            width: 750px;
+            height: 60px;
+            background-color: #FFF;
+            border: 1px solid #222;
+            border-radius: 50px;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        .menu-list-container {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .menu-list-content > a {
+            display: flex;
+            width: 100%;
+            text-decoration: none;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .menu-content-icon {
+            width: 56px;
+            height: 56px;
+            background-color: #FFF;
+            border: 1px solid #222;
+            border-radius: 24px;
+        }
+
+        .menu-name {
+            text-align: center;
+            color: #222;
+            font-weight: normal;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <header class="header-container">
+        <div class="header-hamburger">
+                <img src="img/햄버거 버튼.jpg" alt="">
+            <a href="#" class="header-pay">
+                <img src="img/네이버페이.png" alt="">
+            </a>
+        </div>
+    </header>
+        <div class="search-container">
+            <form action="https://search.naver.com/search.naver?" method="get">
+                <input type="text" name="query" >
+        </div>
+    </div>
+        <ul class="menu-list-container">
+            <li class="menu-list-content">
+                <a href="#">
+                    <div class="menu-content-icon"></div>
+                    <p class="menu-name">메일</p>
+                </a>
+            </li>
+            <li class="menu-list-content">
+                <a href="#">
+                    <div class="menu-content-icon"></div>
+                    <p class="menu-name">카페</p>
+                </a>
+            </li>
+            <li class="menu-list-content">
+                <a href="#">
+                    <div class="menu-content-icon"></div>
+                    <p class="menu-name">블로그</p>
+                </a>
+            </li>
+            <li class="menu-list-content">
+                <a href="#">
+                    <div class="menu-content-icon"></div>
+                    <p class="menu-name">쇼핑</p>
+                </a>
+            </li>
+            <li class="menu-list-content">
+                <a href="#">
+                    <div class="menu-content-icon"></div>
+                    <p class="menu-name">뉴스</p>
+                </a>
+            </li>
+            <li class="menu-list-content">
+                <a href="#">
+                    <div class="menu-content-icon"></div>
+                    <p class="menu-name">증권</p>
+                </a>
+            </li>
+            <li class="menu-list-content">
+                <a href="#">
+                    <div class="menu-content-icon"></div>
+                    <p class="menu-name">부동산</p>
+                </a>
+            </li>
+            <li class="menu-list-content">
+                <a href="#">
+                    <div class="menu-content-icon"></div>
+                    <p class="menu-name">지도</p>
+                </a>
+            </li>
+            <li class="menu-list-content">
+                <a href="#">
+                    <div class="menu-content-icon"></div>
+                    <p class="menu-name">웹툰</p>
+                </a>
+            </li>
+            <li class="menu-list-content">
+                <a href="#">
+                    <div class="menu-content-icon"></div>
+                    <p class="menu-name">치지직</p>
+                </a>
+            </li>
+            <li class="menu-list-content">
+                <a href="#">
+                    <div class="menu-content-icon"></div>
+                    <p class="menu-name"></p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>구글</title>
+    <title>Google</title>
+    <link rel="shortcut icon" href="img/Google.jpg">
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
         h1 {
             font-family: 'Segoe UI', 'Arial', 'Malgun Gothic', 'Gulim', 'sans-serif';
             font-weight: 500;
             font-size: 90px;
-            line-height: 70px;
             color: #222;
             text-align: center;
             margin-top: 232px;
@@ -23,6 +28,8 @@
             background-color: #FFF;
             border: 1px solid #222;
             border-radius: 24px;
+            margin-top: 30px;
+            font-size: 24px;
         }
 
         button {
@@ -57,7 +64,7 @@
 <body>
     <h1>Google</h1>
     <form action="https://www.google.com/search" method="get">
-        <input type="text" type="submit" name="q">
+        <input type="text" name="q">
         <div class="button-box">
             <button type="submit">Google 검색</button>
             <button>I'm Feeling Lucky</button>
