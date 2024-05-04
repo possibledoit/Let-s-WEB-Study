@@ -1,0 +1,66 @@
+img {
+    width: 100%;
+    display: block;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    padding: 0 32px;
+    position: fixed;
+    top: 0;
+    box-sizing: border-box;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.header-logo {
+    width: 120px;
+}
+
+.hamburger {
+    background-color: transparent;
+    border: none;
+    height: 24px;
+    width: 24px;
+    padding: 12px;
+    flex-shrink: 0;
+    display: block;
+    display: flex;
+    box-sizing: content-box;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.bar {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+}
+
+.hamburger > .bar:last-child {
+    margin-left: 4px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: url();
+    background-size: cover;
+    background-position-X: 25%;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
